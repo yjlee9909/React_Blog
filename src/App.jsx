@@ -12,7 +12,7 @@ import "./global.css";
 function App() {
     // 실제로는 로그인이 되는 로직이 들어가야 합니다.
     const [userId, setUserId] = useState(1);
-    const [isLogin, setIsLogin] = useState(false);
+    const [isLogin, setIsLogin] = useState(true);
 
     return (
         <UserContext.Provider value={{ userId, isLogin }}>
